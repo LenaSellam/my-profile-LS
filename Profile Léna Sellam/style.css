@@ -1,0 +1,165 @@
+
+body {
+  background: #630000;
+}
+
+ .over {
+  text-decoration: wavy overline lime;
+}
+
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: darkred;
+  font-size : 32px;
+  font-weight: 700;
+}
+
+h2 {
+  color: white;
+  font-size : 35px;
+  font-weight: 700;
+  text-align: justify;
+}
+
+p {
+  color: black;
+  font-family: 'Inconsolata';', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 48px;
+  padding-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color:  #630000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+
+}
+
+.container {
+  width: 1040px;
+  text-align: center;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+}
+#EED6C4{
+  color: black;
+  font-size: 18px;
+  padding: 8px 20px 8px 20px;
+  backgroung: #7ab990;
+  border-radius: 32px;
+ }
+ 
+ @media (max-width: 600px) {
+  .container{
+    width: 400px;
+  }  
+}
+
+
+.card-white {
+  background: #EED6C4;
+  padding: 60px;
+  border-radius: 75px;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.4);
+  width: 800px;
+  margin: 12px auto;
+}
+
+.btn-blue {
+  border: solid 1px #e6eac9;
+  background: #EED6C4;
+  color: black;
+  padding: 12px;
+  width: 700px;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  border-radius: 15px;
+  position: static;
+
+}
+
+.btn-blue:hover {
+  color: darkred;
+  background: #fcf3d1;
+  border:  solid 1px #483434;
+  transition: 0.5s;
+}
+
+/* ids */
+
+#profile-picture {
+  background-position: center;
+  width: 232px;
+  height: 232px;
+  border-radius: 50%;
+}
+
+#social-media-list {
+  list-style: none;
+  padding: 0;
+}
+
+#social-media-list li {
+  display: inline;
+  font-size: 40px;
+
+}
+
+#social-media-list li :hover {
+  color: #efedd0;
+  transition: 0.5s;
+}
+
+#html-image {
+  background-image: url(images/IMG-SISTER.jpg);
+  background-position: center;
+}
+
+#coding-img-card {
+  background-image: url(images/IMG-ISRAEL.jpg);
+  background-position: center;
+}
+
+#coding-img-card-white {
+  background-image: url(images/IMG-DANSE.jpeg);
+  background-position: center;
+}
+
+#coding-img-card-black {
+  background-image: url(images/IMG-TRIO.jpg);
+  background-position: center;
+}
+
+#word-green {
+  color: whitesmoke;
+  font-size: 18px;
+  padding: 8px 20px 8px 20px;
+  background: #630000;
+  border-radius: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
